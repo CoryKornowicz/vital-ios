@@ -4,6 +4,8 @@ public enum ScalarTimeseriesResource: String {
   case glucose = "glucose"
   case heartRate = "heartrate"
   case bloodOxygen = "blood_oxygen"
+  case vo2Max = "vo2_max"
+  case activeCalories = "calories_active"
 }
 
 public extension VitalClient {
